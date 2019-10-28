@@ -2,17 +2,7 @@ import cv2
 import os
 from jinja2 import Environment, FileSystemLoader
 
-__author__ = "Suh, Dong Hyun"
-__copyright__ = "Copyright 2019, The AI Vehicle Recognition Project"
-__credits__ = ["Suh, Dong Hyun"]
-__license__ = "GPL"
-__version__ = "0.1.0"
-__maintainer__ = ["Suh, Dong Hyun"]
-__email__ = ["dan90511@mindslab.ai"]
-
-
-
-file_path = "/home/daniel/Downloads/xmltest"
+file_path = "/home/xmltest"
 
 def TO_XML(file_path, result, name= 'plate', groundtruth = None):
     filenames = os.listdir(file_path)
