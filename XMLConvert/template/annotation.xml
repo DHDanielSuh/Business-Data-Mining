@@ -1,0 +1,14 @@
+<annotation>
+    <folder>{{ folder }}</folder>
+    <filename>{{ filename }}</filename>
+    <size>
+        <width>{{ width }}</width>
+        <height>{{ height }}</height>
+        <depth>{{ depth }}</depth>
+    </size>
+{% for object in objects %} <object>
+        <name>{{ object.name }}</name>
+        <result>{{ object.result }}</result>
+        <groundtruth>{{ object.groundtruth }}</groundtruth>
+    </object>{% endfor %}
+</annotation>

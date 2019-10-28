@@ -1,0 +1,91 @@
+(avr) lesit@jae:~$ conda install x264=='1!152.20180717' ffmpeg=4.0.2 -c conda-forge
+WARNING: The conda.compat module is deprecated and will be removed in a future release.
+Collecting package metadata: done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.6.11
+  latest version: 4.7.5
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/lesit/anaconda3/envs/avr
+
+  added / updated specs:
+    - ffmpeg=4.0.2
+    - x264==1!152.20180717
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    bzip2-1.0.8                |       h516909a_0         396 KB  conda-forge
+    ca-certificates-2019.6.16  |       hecc5488_0         145 KB  conda-forge
+    certifi-2019.6.16          |           py37_0         148 KB  conda-forge
+    ffmpeg-4.0.2               |       ha0c5888_2        62.1 MB  conda-forge
+    freetype-2.10.0            |       he983fc9_0         885 KB  conda-forge
+    gmp-6.1.2                  |    hf484d3e_1000         751 KB  conda-forge
+    gnutls-3.5.19              |       h2a4e5f8_1         1.9 MB  conda-forge
+    libiconv-1.15              |    h516909a_1005         2.0 MB  conda-forge
+    libpng-1.6.37              |       hed695b0_0         343 KB  conda-forge
+    nettle-3.3                 |                0         3.1 MB  conda-forge
+    openh264-1.8.0             |    hdbcaa40_1000         1.4 MB  conda-forge
+    openssl-1.1.1c             |       h516909a_0         2.1 MB  conda-forge
+    x264-1!152.20180717        |    h14c3975_1001         5.3 MB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        80.6 MB
+
+The following NEW packages will be INSTALLED:
+
+  bzip2              conda-forge/linux-64::bzip2-1.0.8-h516909a_0
+  ffmpeg             conda-forge/linux-64::ffmpeg-4.0.2-ha0c5888_2
+  freetype           conda-forge/linux-64::freetype-2.10.0-he983fc9_0
+  gmp                conda-forge/linux-64::gmp-6.1.2-hf484d3e_1000
+  gnutls             conda-forge/linux-64::gnutls-3.5.19-h2a4e5f8_1
+  libiconv           conda-forge/linux-64::libiconv-1.15-h516909a_1005
+  libpng             conda-forge/linux-64::libpng-1.6.37-hed695b0_0
+  nettle             conda-forge/linux-64::nettle-3.3-0
+  openh264           conda-forge/linux-64::openh264-1.8.0-hdbcaa40_1000
+  x264               conda-forge/linux-64::x264-1!152.20180717-h14c3975_1001
+
+The following packages will be UPDATED:
+
+  ca-certificates    pkgs/main::ca-certificates-2019.5.15-0 --> conda-forge::ca-certificates-2019.6.16-hecc5488_0
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  certifi                                         pkgs/main --> conda-forge
+  openssl              pkgs/main::openssl-1.1.1c-h7b6447c_1 --> conda-forge::openssl-1.1.1c-h516909a_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+ffmpeg-4.0.2         | 62.1 MB   | ##################################### | 100% 
+certifi-2019.6.16    | 148 KB    | ##################################### | 100% 
+gmp-6.1.2            | 751 KB    | ##################################### | 100% 
+openssl-1.1.1c       | 2.1 MB    | ##################################### | 100% 
+libpng-1.6.37        | 343 KB    | ##################################### | 100% 
+bzip2-1.0.8          | 396 KB    | ##################################### | 100% 
+openh264-1.8.0       | 1.4 MB    | ##################################### | 100% 
+freetype-2.10.0      | 885 KB    | ##################################### | 100% 
+libiconv-1.15        | 2.0 MB    | ##################################### | 100% 
+ca-certificates-2019 | 145 KB    | ##################################### | 100% 
+nettle-3.3           | 3.1 MB    | ##################################### | 100% 
+gnutls-3.5.19        | 1.9 MB    | ##################################### | 100% 
+x264-1!152.20180717  | 5.3 MB    | ##################################### | 100% 
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(avr) lesit@jae:~$ ^C
+(avr) lesit@jae:~$ 
+
