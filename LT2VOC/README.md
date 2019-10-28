@@ -12,15 +12,19 @@
   * 동일 경로에 .xml 파일이 저장됨 
   
 2. Required Parameters
-  * EAST mode (default 값)
-```--op EAST 
+  * EAST mode (default 값)  
+```
+--op EAST
 ```
   * YOLO mode
-  ```--op YOLO 
+```
+--op YOLO 
 ```
   * FACENET mode
-  ```--op FACENET 
+```
+--op FACENET 
 ```
 3. Command line example
-```python convert2VOC.py --op EAST 
+```
+python convert2VOC.py --op EAST 
 ```
